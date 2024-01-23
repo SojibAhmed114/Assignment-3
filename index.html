@@ -9,8 +9,7 @@
     <link
       href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css"
       rel="stylesheet"
-      type="text/css"
-    />
+      type="text/css"/>
     <script src="https://cdn.tailwindcss.com"></script>
 
     <!-- google font add link -->
@@ -125,24 +124,24 @@
                <!-- form section -->
           <div >
           <form class="px-5" action="#" method="post">
-            <div class="flex gap-4 justify-between">
-              <div class="flex-1 space-y-4 pb-10">
-                <label class="font-bold" for="">Your Name</label>
+            <div class="flex flex-col lg:flex-row  gap-0 lg:gap-3 justify-between">
+              <div class="flex-1  pb-10">
+                <label class="font-bold pb-5 inline-block" for="">Your Name</label>
                   <input class="bg-[#13131807] p-5 rounded-xl w-full block" type="text"name=""id="" placeholder="Enter your full name"required/> 
 
-                  <label class="font-bold" for="">Subject </label>
+                  <label class="font-bold py-5 inline-block" for="">Subject </label>
                 <input class="bg-[#13131807] p-5 rounded-xl block w-full" type="text" name="" id="" placeholder="Enter your subject"required/>
               </div>
-              <div class="flex-1 space-y-4 ">
-                <label class="font-bold"  for="">Your Email</label>
+              <div class="flex-1 ">
+                <label class="font-bold pb-5 inline-block"  for="">Your Email</label>
                   <input class="bg-[#13131807] p-5 rounded-xl w-full block" type="email" name="" id="" placeholder="Enter your email" required />
                   
-                  <label class="font-bold"  for="">Phone Number</label>
+                  <label class="font-bold py-5 inline-block"  for="">Phone Number</label>
                 <input class="bg-[#13131807] p-5 rounded-xl block w-full" type="tel" name="" id="" placeholder="Enter your phone number" required/>
               </div>
             </div>
               
-            <label class="font-bold"  for="">Message</label>
+            <label class="font-bold py-5 inline-block "  for="">Message</label>
             <textarea class="bg-[#13131807] p-5 rounded-xl w-full" name="" id="" cols="30" rows="10" placeholder="Write your message"></textarea>
             <button class="btn btn-error w-full my-10">Accent</button>
           </form>
